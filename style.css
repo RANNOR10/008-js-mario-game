@@ -4,12 +4,13 @@
   position:absolute;
   bottom: 20%;
   left: 15%;
-  background-image: url('mario.webp');
+  background-image: url(uababgi.png);
   background-size: cover;
 }
 
 .jump{
-  animation: jump 1000ms forwards;
+  background-image: url(mario.webp);
+  animation: jump 2000ms forwards;
 }
 
 
@@ -19,7 +20,7 @@
     }
     100%{
       bottom: 20%;
-      transform: rotate(360deg);
+      transform: rotate(0deg);
     }
 }
 
