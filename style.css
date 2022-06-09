@@ -4,7 +4,7 @@
   position:absolute;
   bottom: 20%;
   left: 15%;
-  background-image: url(uababgi.png);
+  background-image: url(mario.webp);
   background-size: cover;
 }
 
@@ -22,6 +22,25 @@
       bottom: 20%;
       transform: rotate(0deg);
     }
+}
+
+.enemy{
+position: absolute;
+top: 60%;
+left: 25%;
+background-image:url(images-1.jpg);
+width: 280px;
+height: 200px;
+border-radius: 50%;
+box-shadow: green;
+animation: eneyAnim 4s linear;
+}
+
+@keyframes eneyAnim {
+  100%{
+    left: -20%;
+  }
+
 }
 
 body{
