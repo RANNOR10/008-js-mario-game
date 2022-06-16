@@ -1,10 +1,10 @@
 .character{
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   position:absolute;
   bottom: 20%;
   left: 15%;
-  background-image: url(mario.webp);
+  background-image: url(Mario-1.webp);
   background-size: cover;
 }
 
@@ -28,9 +28,10 @@
 position: absolute;
 top: 60%;
 left: 25%;
-background-image:url(images-1.jpg);
-width: 280px;
-height: 200px;
+background-image:url(Goomba.png);
+background-size: contain;
+width: 50px;
+height: 50px;
 border-radius: 50%;
 box-shadow: green;
 animation: eneyAnim 4s linear;
@@ -46,7 +47,7 @@ animation: eneyAnim 4s linear;
 body{
 
 
-background-image: url(balla.jpg);
+background-image: url(gfggfgfgf.jpg);
 
 background-size: cover;
 
